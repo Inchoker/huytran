@@ -1,0 +1,30 @@
+html,body{
+    height:100%;
+ }
+ .carousel,.item,.active{
+    height:100%;
+  }
+ .carousel-inner{
+     height:100%;
+ }
+ .w-100{
+    max-width: 100%;
+    height: auto;
+ }
+
+
+ .sitemessage {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%; /*Initial offset*/
+  }
+  .sitemessage:hover {
+    animation-play-state: paused;
+  }
+  @keyframes floatText {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
